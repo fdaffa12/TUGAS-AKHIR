@@ -1,0 +1,85 @@
+SISTEM ABSENSI BERBASIS INTERNET OF THINGS MENGGUNAKAN ARDUINO UNO DAN THINGSPEAK DENGAN METODE
+
+Proposal Tugas Akhir
+Diajukan sebagai salah satu syarat untuk mencapai kelulusan Program Strata 1 (S-1)
+
+ 
+
+Disusun Oleh :
+Faiz Daffa Kusuma Laksana
+1706700054
+
+PROGRAM STUDI TEKNIK INFORMATIKA
+SEKOLAH TINGGI MANAJEMEN INFORMATIKA DAN KOMPUTER
+SUBANG
+2020 
+LEMBAR PENGESAHAN 
+Bab I
+Pendahuluan
+
+1.	Latar Belakang
+Inovasi dalam peningkatan efektivitas suatu instansi maupun perusahaan sangat dibutuhkan, terutama dalam mencapai produktivitas pegawainya. Hal yang sering kita temui antara lain absensi pegawai juga absensi siswa baik secara manual maupun online. Untuk meningkatkan kedisiplinan pegawai maupun siswa dibuatlah sistem absensi yang tentu sangat berguna untuk menangani kecurangan yang biasanya terjadi dikalangan pegawai maupun siswa. Manual absensi tentu punya banyak kekurangan bisa terjadi manipulasi data, penyalahgunaan waktu, kehilangan maupun kerusakan dokumen, hingga budaya “titip abesen” yang sering terjadi dikalangan mahasiswa/i. Namun, di balik kekurangan yang ada dimanual absensi menginspirasi penulis untuk membuat sistem absensi.  Terdapat juga beberapa kendala dalam penggunaan manual absensi seperti boros kertas, kesalahan data, mengurangi produktivitas karyawan dan atau siswa/i. 
+Di era sekarang, perkembangan teknologi bertumbuh sangat pesat. Kehidupan zaman sekarang bahkan lebih berwarna dengan adanya teknologi yang semakin berkembang, dengan ini manusia sudah mencapai suatu tingkatan yang kita sering sebut sebagai “manusia modern”. Dikarenakan perkembangan teknologi mempengaruhi cara berkomunikasi antar manusia, dulu teknologi internet bisa dikatakan sebagai sesuatu yang “wah” karena hanya beberapa orang saja yang mampu untuk mendapatkannya. Namun di masa sekarang ini internet sudah menjadi hal yang lumrah untuk masyarakat, bahkan manusia jaman sekarang seperti tidak bisa hidup tanpa koneksi internet, atau mungkin kita termasuk salah satu diantara para pengguna internet yang sangat memerlukan hal itu setiap harinya. Internet mempermudah kita melakukan komunikasi antar manusia dengan banyaknya platform media sosial yang tersedia. Sudah seperti wajib bahwa dijaman sekarang kita harus menguasai teknologi internet karena ketersediaannya yang sangat membantu dan mempermudah kita dalam melakukan banyak hal. Meski begitu dibalik semua hal yang terlihat sangat menguntungkan bagi kita. Ada beberapa bagian yang mungkin menjadi kelemahan teknologi internet, banyaknya kasus penipuan juga kebocoran data yang terjadi dikalangan masyarakat, hal itu tentu sangat merugikan. Selain itu manipulasi data juga sering sekali terjadi dikalangan masyarakat maupun instansi-instansi dan perusahaan, salah satu contoh manipulasi data yang kerap kali terjadi adalah data absensi. Untuk itu manusia berlomba-lomba agar dapat meminimalisir hal tersebut. 
+Salah satu cara yang dilakukan untuk mengantisipasi manipulasi data absensi adalah dengan membuat suatu alat yang dapat mendeteksi kehadiran seseorang melalui sensor fingerprint yang dapat terintegrasi langsung dengan database yang tersedia. Untuk itu penulis tertarik mengangkat permasalahan ini sebagai bahan penelitian, dengan harapan dapat memberikan solusi permasalahan yang sering terjadi di kalangan instansi maupun perusahaan tersebut karena pengalaman penulis yang sering merasa ketidak validan data ketika absensi dilakukan. Pengaruh teknologi internet sangat besar dalam mengoperasikan alat ini karena dibutuhkan database yang terhubung dengan internet untuk memvalidasi data pengguna, alat ini dapat menentukan waktu yang sesuai agar para pengguna tidak telat untuk melakukan absen jika pengguna telat melakukan absen maka alat ini akan mencatat data bahwa pengguna telat melakukan absen. Maka dari itu melalui Proposal Tugas Akhir ini penulis tertarik mengangkat judul “SISTEM ABSENSI BERBASIS INTERNET OF THINGS MENGGUNAKAN ARDUINO DAN THINGSPEAK DENGAN METODE”
+
+2.	Identifikasi Masalah
+Berdasarkan pernyataan yang ada dilatar belakang, terdapat beberapa permasalahann antara lain:
+a.	Meningkatkan efisiensi dan kedisiplinan seseorang agar lebih tepat waktu dalam melakukan absen,
+b.	Cara kerja sistem abesensi yang dapat mendeteksi seseorang lewat sensor fingerprint yang sudah terintegrasi langsung dengan sistem dan terhubung dengan database,
+c.	Cara menentukan waktu yang tepat dalam sistem absensi guna meningkatkan kinerja seseorang yang berkaitan.
+
+3.	Tujuan
+Tujuan dalam pembuatan Proposal Tugas Akhir ini adalah:
+a.	Menerapkan sistem absensi dikalangan instansi maupun perusahaan,
+b.	meningkatkan kedisiplinan dalam melakukan rutinitas yang berhubungan dengan instansi maupun perusahaan, dan
+c.	memudahkan dalam mengecek semua detail seseorang karena terintegrasi langsung dengan database yang dapat memantau kedatangan maupun kepulangan seseorang.
+4.	Manfaat
+Didapat beberapa manfaat dari penelitian ini, sebagai berikut:
+4.1	. Manfaat bagi pengguna
+a.	Mampu memberikan data yang akurat, mulai dari kedatangan kepulangan, bahkan seseorang yang tidak melakukan abesen,
+b.	memudahkan menghitung pemberian nilai/gaji melalui data yang tercatat secara akurat dalam database, dan
+c.	menghindari terjadinya manipulasi data.
+
+4.2	. Manfaat bagi kampus
+a.	Memberikan referensi kepada adik tingkat yang akan menyusun Tugas Akhir dimasa mendatang,
+b.	meningkatkan studi litelatur kampus, dan
+c.	menghasilkan lulusan kampus yang baik dan berkualitas.
+
+4.3	. Manfaat bagi penulis
+a.	Sebagai motivasi untuk menyelesaikan Tugas Akhir,
+b.	meningkatkan kreativitas dalam menulis Tugas Akhir,
+c.	meningkatkan pengetahuan penulis dalam dunia IoT dan industri 4.0, dan
+d.	mengasah keahlian penulis dalam membuat sistem mikrokontroler.
+
+5.	Batasan Masalah
+Berikut adalah batasan masalah yang didapat dari penelitian ini:
+a.	Alat ini dibuat menggunakan board arduono uno dengan sensor fingerprint dan platform thingspeak,
+b.	hanya digunakan di instansi maupun perusahaan untuk melakukan absensi, dan
+c.	hanya berfungsi dalam keadaan listrik menyala.
+6.	Metodologi Penelitian
+Metodologi yang diginakan dalam penelitian ini mencakup :
+6.1	. Metode Pengumpulan Data
+a.	Studi Pustaka
+Penulis
+b.	Studi lapangan
+-	Observasi
+-	Kuisioner
+-	Dokumentasi
+c.	Jenis data
+-	Data primer
+-	Data sekunder
+d.	Sumber data
+6.2	. Metodelogi Pengembangan Aplikasi
+Sahadsbd
+
+7.	Analisa Global
+
+8.	Sistematika Penulisan
+Sistematika penyusunan tugas akhir merupakan uarian singkat isi bab penyusunan tugas akhir dalam bentuk narasi menggunakan Alinea baru pada setiap uraian,, yang terdiri dari :
+-	Bab I,……
+-	Bab II,……
+-	Bab III,……
+-	Bab IV,……
+-	Bab V,……
+
+9.	Penjadwalan
